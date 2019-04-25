@@ -45,7 +45,7 @@ html, body {
 }
 .main-header {
     background-color: rgba(0, 0, 0, .4); 
-    background-image: url("images/12resize.jpg");
+    background-image: url("12resize.jpg");
     background-blend-mode: multiply; 
     background-size: cover;
     padding-bottom: 150px;
