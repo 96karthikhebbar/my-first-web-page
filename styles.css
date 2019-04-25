@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+@font-face {
+    font-family: "Booter - Zero Zero" ;
+    src: url("fonts/Booter - Zero Zero.woff") format("woff"),
+         url("fonts/Booter - Zero Zero.woff2") format("woff2");
+         font-weight: normal;
+         font-size: normal;
+}
+*{
+    box-sizing: borderbox;
+    font-family: 'Pacifico', cursive;
+ font-family: 'Lobster', cursive;
+    color: rgb(185, 193, 197);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: 1.1em;
+    color: rgb(228, 225, 225);
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;
+    font-size: .9em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255, 255, .2)
+}
+.main-nav li {
+    padding: 0 5%;
+}
+.nav a:hover {
+   background-color: rgba(196, 207, 207, 0.534);
+}
+.main-header {
+    background-color: rgba(0, 0, 0, .4); 
+    background-image: url("images/12resize.jpg");
+    background-blend-mode: multiply; 
+    background-size: cover;
+    padding-bottom: 150px;
+}
+.charcter-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    color: white;
+    font-weight: bolder;
+}
+
+.charcter-name-large {
+font-size: 7em;
+}
+ 
+.content-section {
+    margin-top: .3em;
+    padding: 5em;
+    background-image: url(images/9e.jpg);
+    background-blend-mode: multiply;
+    background: auto;
+    background-size: contain;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 23%;
+}
+.container{
+    max-width: 2000px;
+    margin: 0, auto;
+    padding: 1.5em;
+}
+.section-header{
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: rgba(255, 255, 7, 0.911);
+    text-align: center;
+    font-size: 2em;
+}
+.about-charcter-image{
+    float: right;
+    height: 350px;
+    width:  300px;
+    margin: 20px;
+    border-radius: 10em;
+}
+.charcter-background-image2 {
+    float:inline-end;
+    height: 150px;
+    width:  150px;
+    margin: 10px;
+    margin-top: 0px;
+    border-bottom-left-radius: 55%;
+    border-top-right-radius: 65%;
+    border-top-left-radius: 65%;
+
+}
+.charcter-background-image1 {
+    float:inline-start;
+    height: 250px;
+    width:  250px;
+    margin: 10px;
+    margin-top: 0px;
+    border-bottom-left-radius: 55%;
+    border-top-right-radius: 65%;
+    border-top-left-radius: 65%;
+}
+.charcter-image-left-circle{
+    float: left;
+    height: 200px;
+    widows: 200px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.charcter-image-right-leaf{
+    float: right;
+    height: 200px;
+    widows: 200px;
+    border-bottom-left-radius: 55%;
+    border-top-right-radius: 65%;
+}
